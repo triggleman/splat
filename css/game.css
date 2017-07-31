@@ -1,0 +1,74 @@
+h1 {
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 40px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 25px;
+}
+
+p {
+  text-align: center;
+  margin: 0 auto;
+  font-weight: ;
+  font-family: Courier;
+  font-size: 25px;
+  max-width: 800px;
+}
+
+.row {
+  position: relative;
+	top: 40px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding-top: 1px;
+}
+
+.splatRed {
+  background-image: url('http://images.clipartpanda.com/paint-splatter-direMKA6T.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin: 5px;
+}
+
+.splatYellow {
+  background-image: url('http://www.clker.com/cliparts/f/h/A/Z/E/P/yellow-splat.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin: 5px;
+}
+
+.col {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 5px;
+  border: 1px solid black;
+	background-image: url('https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/05/12/104466932-PE_Color.240x240.jpg?v=1494613853');
+	background-size: contain;
+	background-color: transparent;
+	cursor: pointer;
+
+}
+
+#gameContainer {
+  height: 880px;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 8px;
+  margin-bottom: 50px;
+	border: 1px solid black;
+}
